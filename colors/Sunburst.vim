@@ -15,7 +15,7 @@ hi Visual ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2c3033 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#191919 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#191919 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#191919 gui=NONE
-hi LineNr ctermfg=244 ctermbg=234 cterm=NONE guifg=#7c7c7c guibg=#191919 gui=NONE
+hi LineNr ctermfg=244 ctermbg=016 cterm=NONE guifg=#7c7c7c guibg=#191919 gui=NONE
 hi VertSplit ctermfg=238 ctermbg=238 cterm=NONE guifg=#484848 guibg=#484848 gui=NONE
 hi MatchParen ctermfg=173 ctermbg=NONE cterm=NONE guifg=#e28964 guibg=NONE gui=NONE
 hi StatusLine ctermfg=231 ctermbg=238 cterm=bold guifg=#f8f8f8 guibg=#484848 gui=bold
@@ -105,6 +105,7 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi MatchTag ctermfg=black ctermbg=lightgreen guifg=black guibg=lightgreen
 
 " Plugin specific additions
+hi SignColumn ctermfg=14 ctermbg=016 guifg=Cyan guibg=Black
 
 " mhinz/vim-signify
 hi DiffAdd cterm=bold ctermbg=none ctermfg=119
@@ -116,5 +117,4 @@ hi SignifySignChange cterm=bold ctermbg=DarkGrey  ctermfg=227
 
 " Valloric/MatchTagAlways
 hi MatchTag ctermfg=black ctermbg=lightgreen guifg=black guibg=lightgreen
-
 
